@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background: url('https://locationcolombia.com/wp-content/uploads/2022/06/70478-1.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    animation: moverArriba 1s ease-in;
+    border-radius: 10pc;
+}
+
+.Menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation: moverArriba 1s ease-in;
+}
+
+.Lista a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px 50px;
+    animation: moverArriba 1s ease-in;
+}
+
+.Menu .Lista {
+    display: inline-block;
+    animation: moverArriba 1s ease-in;
+}
+
+.Lista-r {
+    float: right;
+    animation: moverArriba 1s ease-in;
+}
+
+.Lista a:hover {
+    background-color: rgb(43, 153, 153);
+    animation: moverArriba 1s ease-in;
+}
+
+main {
+    text-align: center;
+    animation: moverArriba 1s ease-in;
+}
+
+img {
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 10px solid rgba(253, 253, 253, 0.212);
+    animation: moverArriba 1s ease-in;
+}
+
+p {
+    font-size: 22px;
+    font-weight: 600;
+    animation: moverArriba 1s ease-in;
+}
+
+.pie-pagina {
+    background-color: black;
+    color: aliceblue;
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+    font-size: 22px;
+    margin-top: -70px;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation: moverArriba 1s ease-in;
+    height: 2cm;
+    border-radius: 10pc;
+}
+
+.container {
+    color: rgb(0, 0, 0);
+    animation: moverArriba 1s ease-in;
+}
+
+.video {
+    margin-top: -300px;
+    margin-left: 760px;
+    width: 10cm;
+    height: 10cm;
+    animation: moverArriba 1s ease-in;
+}
+
+@keyframes moverArriba {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
